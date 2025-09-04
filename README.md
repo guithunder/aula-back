@@ -7,6 +7,7 @@ cd meu_projeto_api
 pip install -r requirements.txt
 uvicorn app.main:app --reload
 
+Render
 start uvicorn app.main:app --host 0.0.0.0 --port $PORT
 build uvicorn app.main:app --host 0.0.0.0 --port $PORT
 .env APP_NAME= API_TEST  APP_VERSION = "1.0.0"
